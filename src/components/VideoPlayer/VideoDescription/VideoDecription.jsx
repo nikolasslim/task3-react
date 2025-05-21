@@ -4,7 +4,7 @@ const VideoDescription = () => {
     return (
         <div className="video-description">
             <div className="chanel-logo">
-                <img src="src/assets/icons/chanel_icon.png" alt="chanel-logo"/>
+                <img src="../../../../public/chanel_icon.png" alt="chanel-logo"/>
             </div>
             <div className="description-details">
                 <h3 className="description-header">Food & Drink</h3>

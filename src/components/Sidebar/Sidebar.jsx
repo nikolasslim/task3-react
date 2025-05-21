@@ -8,7 +8,7 @@ const Sidebar = () => {
                 <div className="controls-toggle">
                     <span className="toggle-text">AUTOPLAY</span>
                     <button className="toggle-btn" aria-label="Toggle autoplay">
-                        <img src="src/assets/icons/toggle-btn.svg" alt="Toggle button"/>
+                        <img src="../../../public/toggle-btn.svg" alt="Toggle button"/>
                     </button>
                 </div>
             </div>
@@ -16,7 +16,7 @@ const Sidebar = () => {
                 <article className="video-card">
                     <div className="video-thumbnail">
                         <img
-                            src="src/assets/pictures/1_1_baby.png"
+                            src="../../../public/1_1_baby.png"
                             alt="Baby Monitor Technology thumbnail"
                         />
                     </div>
@@ -31,7 +31,7 @@ const Sidebar = () => {
                 <article className="video-card">
                     <div className="video-thumbnail">
                         <img
-                            src="src/assets/pictures/1_2_good.png"
+                            src="../../../public/1_2_good.png"
                             alt="A Good Autoresponder thumbnail"
                         />
                     </div>
@@ -46,7 +46,7 @@ const Sidebar = () => {
                 <article className="video-card">
                     <div className="video-thumbnail">
                         <img
-                            src="src/assets/pictures/1_3_selecting.png"
+                            src="../../../public/1_3_selecting.png"
                             alt="Selecting The Right Hotel thumbnail"
                         />
                     </div>
@@ -63,11 +63,11 @@ const Sidebar = () => {
                         <picture>
                             <source
                                 media="(max-width: 1260px)"
-                                srcSet="src/assets/pictures/1_4-full.png"
+                                srcSet="../../../public/1_4-full.png"
                             />
                             <img
                                 className="video-img"
-                                src="src/assets/pictures/1_4.png"
+                                src="../../../public/1_4.png"
                                 alt="Selecting The Right Hotel thumbnail"
                             />
                         </picture>
