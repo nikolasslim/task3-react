@@ -1,3 +1,4 @@
+import "./MobileNavigation.css"
 import homeIcon from '/public/home.svg'
 import trendingIcon from '/public/trending.svg'
 import subscriptionsIcon from '/public/subscrioptions.svg'

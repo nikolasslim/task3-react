@@ -1,4 +1,5 @@
 import channelIcon from '/public/chanel_icon.png'
+import "./VideoDescription.css"
 
 const VideoDescription = () => {
     return (
