@@ -1,4 +1,10 @@
 import "./Sidebar.css";
+import toggleBtn from '/public/toggle-btn.svg'
+import babyMonitor from '/public/1_1_baby.png'
+import autoresponder from '/public/1_2_good.png'
+import hotelSelect from '/public/1_3_selecting.png'
+import hotelSelectSmall from '/public/1_4.png'
+import hotelSelectFull from '/public/1_4-full.png'
 
 const Sidebar = () => {
     return (
@@ -8,7 +14,7 @@ const Sidebar = () => {
                 <div className="controls-toggle">
                     <span className="toggle-text">AUTOPLAY</span>
                     <button className="toggle-btn" aria-label="Toggle autoplay">
-                        <img src="../../../public/toggle-btn.svg" alt="Toggle button"/>
+                        <img src={toggleBtn} alt="Toggle button"/>
                     </button>
                 </div>
             </div>
@@ -16,7 +22,7 @@ const Sidebar = () => {
                 <article className="video-card">
                     <div className="video-thumbnail">
                         <img
-                            src="../../../public/1_1_baby.png"
+                            src={babyMonitor}
                             alt="Baby Monitor Technology thumbnail"
                         />
                     </div>
@@ -31,7 +37,7 @@ const Sidebar = () => {
                 <article className="video-card">
                     <div className="video-thumbnail">
                         <img
-                            src="../../../public/1_2_good.png"
+                            src={autoresponder}
                             alt="A Good Autoresponder thumbnail"
                         />
                     </div>
@@ -46,7 +52,7 @@ const Sidebar = () => {
                 <article className="video-card">
                     <div className="video-thumbnail">
                         <img
-                            src="../../../public/1_3_selecting.png"
+                            src={hotelSelect}
                             alt="Selecting The Right Hotel thumbnail"
                         />
                     </div>
@@ -63,11 +69,11 @@ const Sidebar = () => {
                         <picture>
                             <source
                                 media="(max-width: 1260px)"
-                                srcSet="../../../public/1_4-full.png"
+                                srcSet={hotelSelectFull}
                             />
                             <img
                                 className="video-img"
-                                src="../../../public/1_4.png"
+                                src={hotelSelectSmall}
                                 alt="Selecting The Right Hotel thumbnail"
                             />
                         </picture>

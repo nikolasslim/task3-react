@@ -1,8 +1,14 @@
 import './Header.css';
-import  burgerMenu from '/public/burger_menu.svg'
+import burgerMenu from '/public/burger_menu.svg'
+import youtubeLogo from '/public/youtube_logo.svg'
+import searchIcon from '/public/search.svg'
+import cameraIcon from '/public/camera.svg'
+import dotsIcon from '/public/dots.svg'
+import ringIcon from '/public/ring.svg'
+import userAvatar from '/public/user.png'
+import profileImg from '/public/profile-img-1.svg'
+
 const Header = () => {
-
-
     return (
         <header className="header">
             <nav className="navbar">
@@ -14,7 +20,7 @@ const Header = () => {
                         <img src={burgerMenu} alt="Navigation menu icon"/>
                     </button>
                     <a href="/" className="logo">
-                        <img src="/task3-react/youtube_logo.svg" alt="YouTube logo"/>
+                        <img src={youtubeLogo} alt="YouTube logo"/>
                     </a>
                 </div>
 
@@ -34,26 +40,26 @@ const Header = () => {
                         className="search-button"
                         aria-label="Search"
                     >
-                        <img src="../../../public/search.svg" alt="Search icon"/>
+                        <img src={searchIcon} alt="Search icon"/>
                     </button>
 
                 </form>
 
                 <div className="navbar-section">
                     <button className="nav-button" aria-label="Create video">
-                        <img src="../../../public/camera.svg" alt="Create video icon"/>
+                        <img src={cameraIcon} alt="Create video icon"/>
                     </button>
                     <button className="nav-button" aria-label="More actions">
-                        <img src="../../../public/dots.svg" alt="More actions icon"/>
+                        <img src={dotsIcon} alt="More actions icon"/>
                     </button>
                     <button className="nav-button" aria-label="Notifications">
-                        <img src="../../../public/ring.svg" alt="Notifications icon"/>
+                        <img src={ringIcon} alt="Notifications icon"/>
                     </button>
                     <button className="user-avatar" aria-label="User profile">
-                        <img src="../../../public/user.png" alt="User photo"/>
+                        <img src={userAvatar} alt="User photo"/>
                     </button>
                     <button className="mobile-menu" aria-label="Mobile menu">
-                        <img src="../../../public/profile-img-1.svg" alt="Mobile menu icon"/>
+                        <img src={profileImg} alt="Mobile menu icon"/>
                     </button>
                 </div>
             </nav>
