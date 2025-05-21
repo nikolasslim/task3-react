@@ -1,5 +1,5 @@
 import './Header.css';
-
+import  burgerMenu from '/public/burger_menu.svg'
 const Header = () => {
 
 
@@ -11,10 +11,10 @@ const Header = () => {
                         className="burger-menu"
                         aria-label="Navigation menu"
                     >
-                        <img src="../../../public/burger_menu.svg" alt="Navigation menu icon"/>
+                        <img src={burgerMenu} alt="Navigation menu icon"/>
                     </button>
                     <a href="/" className="logo">
-                        <img src="../../../public/youtube_logo.svg" alt="YouTube logo"/>
+                        <img src="/task3-react/youtube_logo.svg" alt="YouTube logo"/>
                     </a>
                 </div>
 
